@@ -19,7 +19,7 @@ function createHeader() {
   const buttonDeletAll = createElement(
     "button",
     "btn btn-danger flex-fill bd-highlight fs-3 p-2 m-2 border border-dark border-1 col-3 rounded-3",
-    "Delet All"
+    "Delete All"
   );
   buttonDeletAll.id = "delete-all";
   const inputNewTask = createElement(
@@ -27,7 +27,7 @@ function createHeader() {
     "flex-fill bd-highlight fs-3 p-2 m-2 border border-dark border-1 col-6 rounded-3"
   );
   inputNewTask.id = "input-task";
-  inputNewTask.placeholder = "Enter todo ...";
+  inputNewTask.placeholder = "Enter to do ...";
   const buttonAdd = createElement(
     "button",
     "btn btn-success flex-fill bd-highlight fs-3 p-2 m-2 border border-dark border-1 col-3 rounded-3",
